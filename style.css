@@ -35,7 +35,12 @@ section#quote {
   padding-top: 5rem;
 }
 section#call-to-action {
-  padding-top: 3rem;
+  padding-top: 5rem;
+}
+footer {
+  background-color: #1F2937;
+  padding: 2rem;
+  text-align: center;
 }
 a {
   text-decoration: none;
