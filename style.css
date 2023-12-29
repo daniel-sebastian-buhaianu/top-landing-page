@@ -21,6 +21,7 @@ nav ul li {
 }
 section {
   text-align: center;
+  padding-bottom: 5rem;
 }
 section h2 {
   font-size: 36px;
@@ -28,6 +29,10 @@ section h2 {
   color: #1F2937;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+section#quote {
+  background-color: #E5E7EB;
+  padding-top: 5rem;
 }
 a {
   text-decoration: none;
@@ -88,4 +93,16 @@ button {
   border: 3px solid #3882F6;
   border-radius: 1rem;
   margin-bottom: 0.5rem;
+}
+.quote-body, .quote-author {
+  color: #1F2937;
+}
+.quote-body {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+.quote-author {
+  font-weight: bold;
+  text-align: right;
 }
