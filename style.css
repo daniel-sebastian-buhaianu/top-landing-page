@@ -34,6 +34,9 @@ section#quote {
   background-color: #E5E7EB;
   padding-top: 5rem;
 }
+section#call-to-action {
+  padding-top: 3rem;
+}
 a {
   text-decoration: none;
 }
@@ -47,6 +50,10 @@ button {
 .wrapper {
   max-width: 800px;
   margin: 0 auto;
+}
+#call-to-action .wrapper {
+  background-color: #3882F6;
+  border-radius: 0.5rem;
 }
 .hero {
   display: flex;
@@ -105,4 +112,22 @@ button {
 .quote-author {
   font-weight: bold;
   text-align: right;
+}
+.cta-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+}
+.cta-group-item {
+  text-align: start;
+}
+.cta-group-item p {
+  font-size: 0.9rem;
+}
+.cta-group-item .highlight {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.cta-group-item button {
+  border: 1px solid #F9FAF8;
 }
